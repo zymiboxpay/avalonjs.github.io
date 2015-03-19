@@ -1,50 +1,50 @@
 define(function() {
     return {
-        $repository: "仓库地址",
-        $tutorials: "乱炖教程",
-        $videos: "视频教程",
-        $uis: "OniUI库",
-        $mybook: "我写的书",
-        $introduction: "介绍",
-        $concepts: "概心概念",
-        $bindings: "绑定",
-        $filters: "过滤器",
-        $engineering: "工程化",
-        $callbacks: "各种回调",
-        $mobiles: "移动支持",
-        $components: "组件",
-        $configuration:"配置",
+        $repository: "Github",
+        $tutorials: "Tutorials",
+        $videos: "Videos",
+        $uis: "OniUI",
+        $mybook: "My Book",
+        $introduction: "introduction",
+        $concepts: "concepts",
+        $bindings: "bindings",
+        $filters: "filters",
+        $engineering: "engineering",
+        $callbacks: "callbacks",
+        $mobiles: "mobile suporting",
+        $components: "components",
+        $configuration:"configuration",
         concepts: [
             {
-                name: "视图模型",
+                name: "vmodel",
                 id: "vmodel"
             },
             {
-                name: "数据模型",
+                name: "model",
                 id: "$model"
             },
             {
-                name: "监控属性",
+                name: "observable",
                 id: "observable"
             },
             {
-                name: "监控数组",
+                name: "collection",
                 id: "collection"
             },
             {
-                name: "计算属性",
+                name: "computed",
                 id: "computed"
             },
             {
-                name: "$watch方法",
+                name: "$watch",
                 id: "$watch"
             },
             {
-                name: "$fire方法",
+                name: "$fire",
                 id: "$fire"
             },
             {
-                name: "非监控属性",
+                name: "unobservable",
                 id: "unobservable"
             }
         ],
@@ -109,29 +109,29 @@ define(function() {
         },
         engineering: [
             {
-                name: "跨模块通信",
+                name: "communication",
                 id: "communication"
             },
             {
-                name: "与jQuery混用",
+                name: "work with jQuery",
                 id: "jquery"
             },
             {
-                name: "加载器",
+                name: "loader",
                 id: "loader"
             },
             {
-                name: "SEO策略",
+                name: "SEO",
                 id: "seo"
             },
             {
-                name: "与富文本编辑器的整合",
+                name: "RichText",
                 id: "integratewithrichtext"
             }
         ],
         mobiles: [
             {
-                name: "触屏事件",
+                name: "touch",
                 id: "touch"
             }
         ]
